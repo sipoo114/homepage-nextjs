@@ -24,3 +24,79 @@ a {
     background: black;
   }
 }
+
+.max-width {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.img-slider {
+  height: 221px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button-nav {
+  border: 1px solid #E3E3E3;
+  background-color: #ffff !important;
+  border-radius: 15px !important;
+  font-size: 18px !important;
+  padding: 20px !important;
+  font-weight: 400 !important;
+}
+
+.product-slider {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid #F5F5F5;
+}
+
+.carousel-item-margin {
+  margin: 0px 15px;
+}
+
+.product-slider-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-slider-detail {
+  padding: 10px 50px 10px 20px;
+}
+
+.btn-notify {
+  width: 150px;
+  height: 50px !important;
+  border: 1px solid #FFFFFF !important;
+  border-radius: 10px !important;
+  background-color: #000000 !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  color: #FFFFFF ;
+}
+
+.btn-learn {
+  width: 150px;
+  height: 50px !important;
+  border: 1px solid #E3E3E3 !important;
+  border-radius: 10px !important;
+  background-color: #FFFFFF !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  color: #000000 ;
+}
+
+.tutorial-items {
+  width: 100%;
+  height: auto;
+}
+
+.tutorial-items-img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
