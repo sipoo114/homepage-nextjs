@@ -1,5 +1,6 @@
 import { Box, Image, Text} from "@chakra-ui/react"
 import Carousel from "react-multi-carousel"
+import { useRouter } from "next/router";
 
 const ProductIcon = () => {
   const responsive = {
@@ -20,6 +21,11 @@ const ProductIcon = () => {
       items: 2.5
     }
   };
+  const router = useRouter();
+  
+  const direction = () => {
+    router.push('/product-detail')
+  }
 
   return (
     <Box mt={'5'}>
@@ -41,7 +47,7 @@ const ProductIcon = () => {
           itemClass="carousel-item-margin"
           arrows={false}
           >
-          <Box className="product-slider">
+          <Box className="product-slider" onClick={direction}>
             <Image 
               className="product-slider-img"
               src="https://storage.googleapis.com/dev-ser-morpheus/events/bennerAmot.png"/>
@@ -55,7 +61,7 @@ const ProductIcon = () => {
                fontWeight={600}>Rp300.000</Text>
             </Box>
           </Box>
-          <Box className="product-slider">
+          <Box className="product-slider" onClick={direction}>
             <Image 
               className="product-slider-img"
               src="https://storage.googleapis.com/dev-ser-morpheus/events/bennerAmot.png"/>
@@ -69,7 +75,7 @@ const ProductIcon = () => {
                fontWeight={600}>Rp300.000</Text>
             </Box>
           </Box>
-          <Box className="product-slider">
+          <Box className="product-slider" onClick={direction}>
             <Image 
               className="product-slider-img"
               src="https://storage.googleapis.com/dev-ser-morpheus/events/bennerAmot.png"/>
@@ -83,7 +89,7 @@ const ProductIcon = () => {
                fontWeight={600}>Rp300.000</Text>
             </Box>
           </Box>
-          <Box className="product-slider">
+          <Box className="product-slider" onClick={direction}>
             <Image 
               className="product-slider-img"
               src="https://storage.googleapis.com/dev-ser-morpheus/events/bennerAmot.png"/>
@@ -97,7 +103,7 @@ const ProductIcon = () => {
                fontWeight={600}>Rp300.000</Text>
             </Box>
           </Box>
-          <Box className="product-slider">
+          <Box className="product-slider" onClick={direction}>
             <Image 
               className="product-slider-img"
               src="https://storage.googleapis.com/dev-ser-morpheus/events/bennerAmot.png"/>

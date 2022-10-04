@@ -79,6 +79,11 @@ a {
   color: #FFFFFF ;
 }
 
+.btn-notify:hover {
+  background-color:#008CBA !important;
+  color: #FFFFFF !important;
+}
+
 .btn-learn {
   width: 150px;
   height: 50px !important;
@@ -90,6 +95,11 @@ a {
   color: #000000 ;
 }
 
+.btn-learn:hover {
+  background-color: #008CBA !important;
+  color: #FFFFFF !important;
+}
+
 .tutorial-items {
   width: 100%;
   height: auto;
@@ -99,4 +109,77 @@ a {
   width: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+.btn-share {
+  width: 400px;
+  height: 50px !important;
+  border: 1px solid #E3E3E3 !important;
+  border-radius: 20px !important;
+  background-color: #FFFFFF !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  color: #000000 ;
+}
+
+.btn-product-item {
+  border: 1px solid #E3E3E3;
+  background-color: #FFFFFF !important;
+  border-radius: 15px !important;
+  font-size: 18px !important;
+  padding: 20px !important;
+  font-weight: 400 !important;
+}
+
+.btn-product {
+  border: 1px solid #E3E3E3;
+  background-color: #FFFFFF !important;
+  border-radius: 15px !important;
+  padding: 20px !important;
+  width: 90%;
+}
+
+.btn-product:hover {
+  background-color: #008CBA !important;
+  color: #FFFFFF !important ;
+}
+
+.btn-product-list {
+  border: 1px solid #E3E3E3;
+  background-color: #FFFFFF !important;
+  border-radius: 15px !important;
+  font-size: 15px !important;
+  padding: 20px !important;
+  font-weight: 400 !important;
+}
+
+.btn-buy {
+  width: 400px;
+  height: 50px !important;
+  border: 1px solid #E3E3E3 !important;
+  border-radius: 20px !important;
+  color: #FFFFFF;
+  background-color: #000000 !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+.btn-apply {
+  border: 1px solid #E3E3E3 !important;
+  border-radius: 20px !important;
+  color: #FFFFFF;
+  background-color: #000000 !important;
+  font-weight: 600 !important;
+  height: 30px !important;
+}
+
+.btn-order {
+  width: 355px;
+  height: 50px !important;
+  border: 1px solid #E3E3E3 !important;
+  border-radius: 20px !important;
+  color: #FFFFFF;
+  background-color: #000000 !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
 }
