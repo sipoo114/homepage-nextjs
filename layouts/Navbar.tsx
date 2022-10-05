@@ -42,7 +42,7 @@ const Navbar = () => {
                             </Flex>
                         </Box>
                         <Box marginLeft={'20px'} paddingTop={'8px'} width="25%">
-                            <Flex gap={4}>
+                            <Flex gap={4} justifyContent='end'>
                                 <Image
                                 src="https://storage.googleapis.com/prod-ser-morpheus/web-transactions/png/black-profile.png"/>
                                 <Image

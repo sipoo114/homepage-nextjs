@@ -30,6 +30,11 @@ a {
   margin: 0 auto;
 }
 
+.max-width-900 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .img-slider {
   height: 221px;
   width: 100%;
@@ -182,4 +187,21 @@ a {
   background-color: #000000 !important;
   font-weight: 600 !important;
   font-size: 18px !important;
+}
+
+.rp-icon {
+ position: relative;
+ background-color:#529770;
+ width: 50px;
+ height: 44px;
+ border-radius: 50%;
+}
+
+.rp-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  font-weight: 600;
 }

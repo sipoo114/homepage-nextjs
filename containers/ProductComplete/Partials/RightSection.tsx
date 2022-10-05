@@ -1,7 +1,14 @@
 import { Box, Button, Flex, Text } from "@chakra-ui/react"
+import { useRouter } from "next/router"
 
 
 const RightSection = () => {
+  const router = useRouter ();
+
+  const direction = () => {
+    router.push ('/choose-payment')
+  }
+
   return (
     <Box 
       p='30px 15px'
@@ -21,7 +28,7 @@ const RightSection = () => {
         </Flex>
       </Box>
       <Box>
-        <Button className="btn-order"
+        <Button className="btn-order" onClick={direction}
           >Complete Order</Button>
       </Box>
     </Box>
